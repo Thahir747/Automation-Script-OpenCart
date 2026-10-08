@@ -1,0 +1,35 @@
+11:56:02.564 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+11:56:02.576 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+11:56:02.577 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+11:56:02.577 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+11:56:02.579 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+11:56:02.581 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+11:56:02.583 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+11:56:02.583 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+11:56:02.583 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+11:56:02.584 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+11:56:02.595 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\thahi\AppData\Local\Temp\testng-eclipse--1680289537\testng-customsuite.xml
+
+11:56:02.623 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] DynamicGraphHelper.createDynamicGraph() took 7 ms.
+11:56:06.269 [main] INFO  testCases.TC001_AccountRegistrationTest.loginTest(TC001_AccountRegistrationTest.java:17)oggger - *****Starting test ******
+11:56:07.149 [main] INFO  testCases.TC001_AccountRegistrationTest.loginTest(TC001_AccountRegistrationTest.java:23)oggger - clicked on my account
+11:56:07.159 [main] INFO  testCases.TC001_AccountRegistrationTest.loginTest(TC001_AccountRegistrationTest.java:27)oggger - Providing cutomer details
+11:56:10.257 [main] INFO  testCases.TC001_AccountRegistrationTest.loginTest(TC001_AccountRegistrationTest.java:41)oggger - validating
+11:56:10.311 [main] ERROR testCases.TC001_AccountRegistrationTest.loginTest(TC001_AccountRegistrationTest.java:46)oggger - Test failed.......
+11:56:10.311 [main] DEBUG testCases.TC001_AccountRegistrationTest.loginTest(TC001_AccountRegistrationTest.java:47)oggger - debug logs....
+11:56:11.109 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Time taken by org.testng.reporters.jq.Main@1542af63: 174 ms
+11:56:11.132 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Time taken by org.testng.reporters.FailedReporter@415156bf: 23 ms
+11:56:11.148 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Time taken by org.testng.reporters.XMLReporter@153f66e7: 16 ms
+11:56:11.160 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@4e4c3a38: 12 ms
+11:56:11.170 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@398474a2: 10 ms
+11:56:11.170 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Time taken by org.testng.internal.ExitCodeListener@61799544: 0 ms
+12:05:38.379 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\WORKPLACE\selenium automation\OpencartV121\master.xml"
+12:05:39.018 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\WORKPLACE\selenium automation\OpencartV121\master.xml
+
+12:05:44.681 [main] INFO  testCases.TC001_AccountRegistrationTest.loginTest(TC001_AccountRegistrationTest.java:17)oggger - *****Starting test ******
+12:05:45.458 [main] INFO  testCases.TC001_AccountRegistrationTest.loginTest(TC001_AccountRegistrationTest.java:23)oggger - clicked on my account
+12:05:45.461 [main] INFO  testCases.TC001_AccountRegistrationTest.loginTest(TC001_AccountRegistrationTest.java:27)oggger - Providing cutomer details
+12:05:48.545 [main] INFO  testCases.TC001_AccountRegistrationTest.loginTest(TC001_AccountRegistrationTest.java:41)oggger - validating
+12:05:48.616 [main] INFO  testCases.TC001_AccountRegistrationTest.loginTest(TC001_AccountRegistrationTest.java:56)oggger - *****Finished test ******
