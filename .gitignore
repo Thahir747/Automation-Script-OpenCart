@@ -1,1 +1,20 @@
-/target/
+# Test Execution Outputs & Reports
+*.log
+
+# Maven Build Artifacts
+target/
+
+# Eclipse IDE Configuration Files
+.settings/
+.project
+.classpath
+.metadata/
+bin/
+
+# IntelliJ IDEA Configuration (if ever opened there)
+.idea/
+*.iml
+
+# OS-specific files
+Thumbs.db
+.DS_Store
