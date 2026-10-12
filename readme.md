@@ -22,6 +22,19 @@ OpenCart Automation Framework
  └── CI/CD Integration             -> Jenkins Freestyle pipeline automation
 ```
 
+## 🛠️ Tech Stack & Dependencies
+
+- **Language:** Java 17 / 21
+- **Automation Tool:** Selenium WebDriver (`4.x`)
+- **Test Runner & Framework:** TestNG (`7.x`)
+- **Design Pattern:** Page Object Model (POM)
+- **Data-Driven Engine:** Apache POI (`5.x`)
+- **Logging:** Log4j2 (`2.x`)
+- **Reporting:** ExtentReports (`5.x`)
+- **Build Management:** Apache Maven (`3.9+`)
+- **Containerization & Grid:** Docker & Selenium Grid
+- **Utilities:** Apache Commons Lang3, Commons IO
+
 ---
 
 ## Repository Structure
