@@ -13,6 +13,7 @@ public class MyAccountPage extends BasePage {
 	
 	@FindBy(xpath="//h2[normalize-space()='My Account']") WebElement mssgHeading;
 	@FindBy(xpath="//a[@class='list-group-item'][normalize-space()='Logout']") WebElement logout; // added in step 6
+	@FindBy(xpath="//ul[@class='breadcrumb']//li[1]/a") WebElement account;
 	
 	public boolean isMyAccountPageExists() {
 		
@@ -26,10 +27,13 @@ public class MyAccountPage extends BasePage {
 		}
 	}
 	
+	public void homeClick() {
+		account.click();
+	}
+	
 	public void clickLogout() {
 		logout.click();
 	}
 	
 	
-
 }

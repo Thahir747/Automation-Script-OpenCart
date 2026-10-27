@@ -7,9 +7,10 @@
 
 <suite name=" Master Suite">
 
+<!--
 <listeners>
 <listener class-name="utilities.ExtentReportManager"/>
-</listeners>
+</listeners> --> 
 
 
 
@@ -18,9 +19,11 @@
   <parameter name="os" value="Windows"/>
   <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testCases.TC001_AccountRegistrationTest"/>
-    <class name="testCases.TC002_LoginTest"/> 
-      <!-- <class name="testCases.TC003_LoginDDT"/> -->     
+     <!-- <class name="testCases.TC001_AccountRegistrationTest"/>--> 
+    <!-- <class name="testCases.TC002_LoginTest"/>   -->
+      <!-- <class name="testCases.TC003_LoginDDT"/> --> 
+      <class name="testCases.TC004_E2E"/>
+          
     </classes>
   </test>
   
