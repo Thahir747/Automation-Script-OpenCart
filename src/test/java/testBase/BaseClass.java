@@ -101,12 +101,12 @@ public Properties p;
 		
 	}
 
-/*	
+	
 	@AfterClass(groups= {"Sanity","Regression","Master"})
 	public void tearDown() {
 		driver.quit();
 	}
-*/
+
 	
 	public String randomString() {
 		String generatedString= RandomStringUtils.secure().nextAlphabetic(5);
