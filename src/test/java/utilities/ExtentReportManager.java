@@ -101,7 +101,7 @@ public class ExtentReportManager implements ITestListener {
 		
 		extent.flush();
 		
-		String pathOfExtentReport = System.getProperty("user.dir")+"\\reports\\"+repName;
+		String pathOfExtentReport = System.getProperty("user.dir")+"/reports/"+repName;
 		File extentReport = new File(pathOfExtentReport);
 		
 		try {
