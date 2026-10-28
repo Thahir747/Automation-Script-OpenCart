@@ -40,7 +40,7 @@ public class ExtentReportManager implements ITestListener {
 		String timeStamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());// time stamp
 		
 		repName = "Test-Report-" + timeStamp + ".html";
-		sparkReporter = new ExtentSparkReporter(".\\reports\\" + repName);// specify location of the report
+		sparkReporter = new ExtentSparkReporter("./reports/" + repName);// specify location of the report
 
 		sparkReporter.config().setDocumentTitle("opencart Automation Report"); // Title of report
 		sparkReporter.config().setReportName("opencart Functional Testing"); // name of the report
@@ -104,11 +104,11 @@ public class ExtentReportManager implements ITestListener {
 		String pathOfExtentReport = System.getProperty("user.dir")+"/reports/"+repName;
 		File extentReport = new File(pathOfExtentReport);
 		
-		try {
-			Desktop.getDesktop().browse(extentReport.toURI());
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
+//		try {
+//			Desktop.getDesktop().browse(extentReport.toURI());
+//		} catch (IOException e) {
+//			e.printStackTrace();
+//		}
 
 		//need to import mail mvn repo
 		/*
