@@ -182,6 +182,15 @@ bash auto.sh
 bash auto.sh "Updated login page locators and assertion checks"
 ```
 
+## 🔄 CI/CD & Live Build Validation (GitHub Actions)
+
+To ensure continuous stability and code quality, this repository is fully integrated with **GitHub Actions**. An automated CI/CD pipeline acts as a live build check, instantly validating the framework's health against every code update.
+
+* **Automated Trigger:** The pipeline automatically initiates on every `push` to the `master` branch.
+* **Headless Execution:** Tests are compiled via Maven and executed on an ephemeral, headless `ubuntu-latest` remote runner, ensuring the framework operates flawlessly outside of local environments.
+* **Live Commit Status:** The build status (Pass/Fail) is attached directly to your commit history, providing immediate feedback if a recent change breaks locators, configurations, or test assertions.
+* **Artifact Retention:** Upon completion, the pipeline dynamically generates and uploads the Extent HTML report as a downloadable build artifact directly to the GitHub run dashboard.
+
 ---
 
 ## Author
