@@ -27,7 +27,7 @@ jobs:
         sleep 10 
 
     - name: Run Maven Tests
-      run: mvn clean test
+      run: mvn clean test -Dexecution_env=remote
 
     - name: Save Extent Reports
       if: always() 

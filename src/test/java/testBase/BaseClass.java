@@ -41,11 +41,60 @@ public Properties p;
 		p=new Properties();
 		p.load(file);
 		
+		/*
+		 * logger=LogManager.getLogger(this.getClass());
+		 * 
+		 * // remote execution ------- added this in session 53 -- step 10 selenium grid
+		 * 
+		 * if(p.getProperty("execution_env").equalsIgnoreCase("remote")) {
+		 * DesiredCapabilities capabilities=new DesiredCapabilities();
+		 * 
+		 * //os if(os.equalsIgnoreCase("windows")) {
+		 * capabilities.setPlatform(Platform.WIN11); } else
+		 * if(os.equalsIgnoreCase("mac")) { capabilities.setPlatform(Platform.MAC);
+		 * }else if(os.equalsIgnoreCase("linux")) {
+		 * capabilities.setPlatform(Platform.LINUX); } else {
+		 * System.out.println("No Matching os found......."); }
+		 * 
+		 * 
+		 * //browser
+		 * 
+		 * switch(br.toLowerCase()) { case "chrome":
+		 * capabilities.setBrowserName("chrome"); break; case "edge":
+		 * capabilities.setBrowserName("MicrosoftEdge"); break; default:
+		 * System.out.println("No matching browser"); return; }
+		 * 
+		 * driver=new
+		 * RemoteWebDriver(java.net.URI.create("http://localhost:4444").toURL(),
+		 * capabilities); }
+		 * 
+		 * 
+		 * // local execution
+		 * 
+		 * if(p.getProperty("execution_env").equalsIgnoreCase("local")) {
+		 * 
+		 * switch(br.toLowerCase()) { case "chrome" : driver=new ChromeDriver(); break;
+		 * case "edge" : driver=new EdgeDriver(); break;
+		 * 
+		 * default: System.out.println("Invalid browser name"); return;
+		 * 
+		 * }
+		 * 
+		 * }
+		 */
+		
 		logger=LogManager.getLogger(this.getClass());
 		
-		// remote execution ------- added this in session 53 -- step 10 selenium grid
+		// 1. Try to read the environment from the Maven command line first
+		String env = System.getProperty("execution_env");
+
+		// 2. If it is not passed via command line, fall back to config.properties
+		if (env == null || env.isEmpty()) {
+		    env = p.getProperty("execution_env");
+		}
 		
-		if(p.getProperty("execution_env").equalsIgnoreCase("remote")) {
+		// 3. remote execution ------- using dynamic 'env' variable
+		if(env.equalsIgnoreCase("remote")) {
 			DesiredCapabilities capabilities=new DesiredCapabilities();
 			
 			//os
@@ -59,9 +108,7 @@ public Properties p;
 				System.out.println("No Matching os found.......");
 			}
 			
-			
 			//browser
-			
 			switch(br.toLowerCase())
 			{
 			case "chrome": capabilities.setBrowserName("chrome"); break;
@@ -72,19 +119,14 @@ public Properties p;
 			driver=new RemoteWebDriver(java.net.URI.create("http://localhost:4444").toURL(),capabilities);
 		}
 		
-		
-		// local execution
-		
-		if(p.getProperty("execution_env").equalsIgnoreCase("local")) {
+		// 4. local execution ------- using dynamic 'env' variable
+		else if(env.equalsIgnoreCase("local")) {
 			
 			switch(br.toLowerCase()) {
 			case "chrome" : driver=new ChromeDriver(); break;
 			case "edge" : driver=new EdgeDriver(); break;
-			
 			default: System.out.println("Invalid browser name"); return;
-		
-		}
-	
+			}
 		}
 		
 		
