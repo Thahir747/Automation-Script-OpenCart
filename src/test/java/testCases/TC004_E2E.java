@@ -32,7 +32,6 @@ public class TC004_E2E extends BaseClass {
 		MyAccountPage ap =new MyAccountPage(driver);
 		ap.homeClick();
 		
-		Thread.sleep(5000);
 		
 		//Homepage
 		hp.searchText(p.getProperty("searchProductName"));
