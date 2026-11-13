@@ -8,7 +8,7 @@ public class DataProviders {
 	
 	@DataProvider(name="LoginData")
 	public String[][] getData() throws IOException{
-		String path=".\\testData\\opencart_logindata.xlsx";
+		String path=".//testData//opencart_logindata.xlsx";
 		
 		ExcelUtility xlutil=new ExcelUtility(path);
 		int totalrows=xlutil.getRowCount("open_sheet");
