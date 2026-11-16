@@ -41,9 +41,10 @@
 
 rolling appenders -->
 
-<Root level="Off">  <!--<AppenderRef ref="Console"/> -->
+<Root level="info"> 
 
 
+<!--To view in console-->
 <!-- <AppenderRef ref="Console"/> -->
 
  <AppenderRef ref="File"/> 

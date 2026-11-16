@@ -24,6 +24,17 @@ public class AccountregistrationPage extends BasePage {
 	@FindBy(xpath="//h1[normalize-space()='Your Account Has Been Created!']")
 	WebElement msgConfirmation;
 	
+	@FindBy(xpath="//div[@class='alert alert-danger alert-dismissible']")
+	WebElement warning;
+	
+	@FindBy(xpath="//div[@class='text-danger']") WebElement passwordConfirmationDoesNot;
+	
+	@FindBy(xpath="//div[@class='alert alert-danger alert-dismissible']") WebElement privacyError;
+	
+	
+	
+	
+	
 	public void setFirstName(String fname) {
 		firstName.sendKeys(fname);
 	}
@@ -69,6 +80,29 @@ public class AccountregistrationPage extends BasePage {
 		}
 	}
 
-
+	public String duplicatemsg() {
+		try {
+			return (warning.getText());
+		}catch(Exception e) {
+			return(e.getMessage());
+		}
+	}
+	
+	public String passwordMismatch() {
+		try {
+			return (passwordConfirmationDoesNot.getText());
+		}catch(Exception e) {
+			return(e.getMessage());
+		}
+	}
+	
+	public String privacyConfirmation() {
+		try {
+			return (privacyError.getText());
+		}catch(Exception e) {
+			return(e.getMessage());
+		}
+	}
+	
 
 }
