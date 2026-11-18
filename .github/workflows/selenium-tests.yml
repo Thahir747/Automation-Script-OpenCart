@@ -29,9 +29,20 @@ jobs:
     - name: Run Maven Tests
       run: mvn clean test -Dexecution_env=remote
 
-    - name: Save Extent Reports
-      if: always() 
-      uses: actions/upload-artifact@v4
-      with:
-        name: Automation-Extent-Reports
-        path: reports/
+   - name: Save ReportingLabs Report
+  	if: always() # Ensures the report uploads even if tests fail
+ 	 uses: actions/upload-artifact@v4
+ 	 with:
+   	 	name: ReportingLabs-Test-Results
+    		path: target/reportinglabs/ # Change this to your exact ReportingLabs output folder
+ 	
+
+#   - name: Save Extent Reports
+ #     if: always() 
+ #     uses: actions/upload-artifact@v4
+ #     with:
+ #       name: Automation-Extent-Reports
+ #       path: reports/
+
+
+

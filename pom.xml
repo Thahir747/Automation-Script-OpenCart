@@ -127,6 +127,22 @@
 </dependency>
 
 
+<!-- the reporter for TestNG -->
+<dependency>
+  <groupId>dev.reportinglabs</groupId>
+  <artifactId>reporting-labs-testng</artifactId>
+  <version>0.1.35</version>
+  <scope>test</scope>
+</dependency>
+<!-- zero-code Selenium steps and screenshots -->
+<dependency>
+  <groupId>dev.reportinglabs</groupId>
+  <artifactId>reporting-labs-selenium</artifactId>
+  <version>0.1.35</version>
+  <scope>test</scope>
+</dependency>
+
+
    
    </dependencies>
   

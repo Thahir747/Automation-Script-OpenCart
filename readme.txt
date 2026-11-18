@@ -18,7 +18,7 @@ OpenCart Automation Framework
  ├── Data-Driven Testing           -> Apache POI integration with testData/ Excel sheets
  ├── Cross-Browser & Grid Support  -> Local & Selenium Grid execution via Docker Compose
  ├── Test Orchestration            -> TestNG XML suites (grouping, cross-browser, master)
- ├── Reporting & Logging           -> ExtentReports, Log4j2, automated screenshot capture
+ ├── Reporting & Logging           -> reportingLabs, ExtentReports, Log4j2, automated screenshot capture
  └── CI/CD Integration             -> Jenkins Freestyle pipeline automation
 ```
 
@@ -30,7 +30,7 @@ OpenCart Automation Framework
 - **Design Pattern:** Page Object Model (POM)
 - **Data-Driven Engine:** Apache POI (`5.x`)
 - **Logging:** Log4j2 (`2.x`)
-- **Reporting:** ExtentReports (`5.x`)
+- **Reporting:** reportingLabs (`0.1.35`), ExtentReports (`5.x`)  
 - **Build Management:** Apache Maven (`3.9+`)
 - **Containerization & Grid:** Docker & Selenium Grid
 - **Utilities:** Apache Commons Lang3, Commons IO

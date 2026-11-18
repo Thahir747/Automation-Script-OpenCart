@@ -1,36 +1,22 @@
-23:29:36.728 [main] INFO  testCases.TC006_MandatoryFieldsPasswordMismatch.MandotoryAndMismatch(TC006_MandatoryFieldsPasswordMismatch.java:42)oggger - validating
-23:29:37.492 [main] INFO  testCases.TC006_MandatoryFieldsPasswordMismatch.MandotoryAndMismatch(TC006_MandatoryFieldsPasswordMismatch.java:69)oggger - *****Finished test ******
-23:30:38.606 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+20:17:15.745 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
   C:\WORKPLACE\Automation Projects\Automation-Script-OpenCart\master.xml
 
-23:30:44.198 [main] INFO  testCases.TC001_AccountRegistrationTest.loginTest(TC001_AccountRegistrationTest.java:17)oggger - *****Starting test ******
-23:30:45.545 [main] INFO  testCases.TC001_AccountRegistrationTest.loginTest(TC001_AccountRegistrationTest.java:23)oggger - clicked on my account
-23:30:45.591 [main] INFO  testCases.TC001_AccountRegistrationTest.loginTest(TC001_AccountRegistrationTest.java:27)oggger - Providing cutomer details
-23:30:50.589 [main] INFO  testCases.TC001_AccountRegistrationTest.loginTest(TC001_AccountRegistrationTest.java:41)oggger - validating
-23:30:50.652 [main] INFO  testCases.TC001_AccountRegistrationTest.loginTest(TC001_AccountRegistrationTest.java:56)oggger - *****Finished test ******
-23:30:54.917 [main] INFO  testCases.TC002_LoginTest.loginTest(TC002_LoginTest.java:16)oggger - *****Starting test ******
-23:30:56.173 [main] INFO  testCases.TC002_LoginTest.loginTest(TC002_LoginTest.java:23)oggger - clicked on my Login
-23:30:56.208 [main] INFO  testCases.TC002_LoginTest.loginTest(TC002_LoginTest.java:28)oggger - Providing cutomer details
-23:30:57.712 [main] INFO  testCases.TC002_LoginTest.loginTest(TC002_LoginTest.java:43)oggger - *****Finished test ******
-23:31:05.643 [main] INFO  testCases.TC003_LoginDDT.verify_loginDDT(TC003_LoginDDT.java:17)oggger - *****Starting test case*******
-23:31:09.231 [main] INFO  testCases.TC003_LoginDDT.verify_loginDDT(TC003_LoginDDT.java:60)oggger - *****finished test case*******
-23:31:09.250 [main] INFO  testCases.TC003_LoginDDT.verify_loginDDT(TC003_LoginDDT.java:17)oggger - *****Starting test case*******
-23:31:21.083 [main] INFO  testCases.TC003_LoginDDT.verify_loginDDT(TC003_LoginDDT.java:60)oggger - *****finished test case*******
-23:31:21.108 [main] INFO  testCases.TC003_LoginDDT.verify_loginDDT(TC003_LoginDDT.java:17)oggger - *****Starting test case*******
-23:31:33.194 [main] INFO  testCases.TC003_LoginDDT.verify_loginDDT(TC003_LoginDDT.java:60)oggger - *****finished test case*******
-23:31:33.207 [main] INFO  testCases.TC003_LoginDDT.verify_loginDDT(TC003_LoginDDT.java:17)oggger - *****Starting test case*******
-23:31:45.120 [main] INFO  testCases.TC003_LoginDDT.verify_loginDDT(TC003_LoginDDT.java:60)oggger - *****finished test case*******
-23:31:45.132 [main] INFO  testCases.TC003_LoginDDT.verify_loginDDT(TC003_LoginDDT.java:17)oggger - *****Starting test case*******
-23:31:47.822 [main] INFO  testCases.TC003_LoginDDT.verify_loginDDT(TC003_LoginDDT.java:60)oggger - *****finished test case*******
-23:31:47.848 [main] INFO  testCases.TC003_LoginDDT.verify_loginDDT(TC003_LoginDDT.java:17)oggger - *****Starting test case*******
-23:31:59.477 [main] INFO  testCases.TC003_LoginDDT.verify_loginDDT(TC003_LoginDDT.java:60)oggger - *****finished test case*******
-23:32:03.468 [main] INFO  testCases.TC005_RegistrationDuplicateEmailValidation.duplicateEmail(TC005_RegistrationDuplicateEmailValidation.java:17)oggger - *****Starting test ******
-23:32:04.714 [main] INFO  testCases.TC005_RegistrationDuplicateEmailValidation.duplicateEmail(TC005_RegistrationDuplicateEmailValidation.java:23)oggger - clicked on my account
-23:32:04.724 [main] INFO  testCases.TC005_RegistrationDuplicateEmailValidation.duplicateEmail(TC005_RegistrationDuplicateEmailValidation.java:27)oggger - Providing cutomer details
-23:32:06.634 [main] INFO  testCases.TC005_RegistrationDuplicateEmailValidation.duplicateEmail(TC005_RegistrationDuplicateEmailValidation.java:41)oggger - validating
-23:32:06.690 [main] INFO  testCases.TC005_RegistrationDuplicateEmailValidation.duplicateEmail(TC005_RegistrationDuplicateEmailValidation.java:56)oggger - *****Finished test ******
-23:32:10.183 [main] INFO  testCases.TC006_MandatoryFieldsPasswordMismatch.MandotoryAndMismatch(TC006_MandatoryFieldsPasswordMismatch.java:15)oggger - *****Starting test ******
-23:32:11.278 [main] INFO  testCases.TC006_MandatoryFieldsPasswordMismatch.MandotoryAndMismatch(TC006_MandatoryFieldsPasswordMismatch.java:21)oggger - clicked on my account
-23:32:11.308 [main] INFO  testCases.TC006_MandatoryFieldsPasswordMismatch.MandotoryAndMismatch(TC006_MandatoryFieldsPasswordMismatch.java:25)oggger - Providing cutomer details
-23:32:13.129 [main] INFO  testCases.TC006_MandatoryFieldsPasswordMismatch.MandotoryAndMismatch(TC006_MandatoryFieldsPasswordMismatch.java:42)oggger - validating
-23:32:13.211 [main] INFO  testCases.TC006_MandatoryFieldsPasswordMismatch.MandotoryAndMismatch(TC006_MandatoryFieldsPasswordMismatch.java:69)oggger - *****Finished test ******
+20:17:57.660 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\WORKPLACE\Automation Projects\Automation-Script-OpenCart\master.xml
+
+20:24:09.979 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\WORKPLACE\Automation Projects\Automation-Script-OpenCart\master.xml
+
+20:24:15.908 [main] INFO  testCases.TC001_AccountRegistrationTest.loginTest(TC001_AccountRegistrationTest.java:17)oggger - *****Starting test ******
+20:24:16.954 [main] INFO  testCases.TC001_AccountRegistrationTest.loginTest(TC001_AccountRegistrationTest.java:23)oggger - clicked on my account
+20:24:16.957 [main] INFO  testCases.TC001_AccountRegistrationTest.loginTest(TC001_AccountRegistrationTest.java:27)oggger - Providing cutomer details
+20:24:19.686 [main] INFO  testCases.TC001_AccountRegistrationTest.loginTest(TC001_AccountRegistrationTest.java:41)oggger - validating
+20:24:19.735 [main] INFO  testCases.TC001_AccountRegistrationTest.loginTest(TC001_AccountRegistrationTest.java:56)oggger - *****Finished test ******
+20:29:38.450 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\WORKPLACE\Automation Projects\Automation-Script-OpenCart\master.xml
+
+20:29:43.804 [main] INFO  testCases.TC001_AccountRegistrationTest.loginTest(TC001_AccountRegistrationTest.java:17)oggger - *****Starting test ******
+20:29:44.755 [main] INFO  testCases.TC001_AccountRegistrationTest.loginTest(TC001_AccountRegistrationTest.java:23)oggger - clicked on my account
+20:29:44.758 [main] INFO  testCases.TC001_AccountRegistrationTest.loginTest(TC001_AccountRegistrationTest.java:27)oggger - Providing cutomer details
+20:29:47.467 [main] INFO  testCases.TC001_AccountRegistrationTest.loginTest(TC001_AccountRegistrationTest.java:41)oggger - validating
+20:29:47.511 [main] INFO  testCases.TC001_AccountRegistrationTest.loginTest(TC001_AccountRegistrationTest.java:56)oggger - *****Finished test ******

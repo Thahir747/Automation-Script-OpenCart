@@ -1,6 +1,8 @@
 # Test Execution Outputs & Reports
 *.log
 
+#reports/*.html
+
 # Maven Build Artifacts
 target/
 
