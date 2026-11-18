@@ -34,7 +34,7 @@ jobs:
  	 uses: actions/upload-artifact@v4
  	 with:
    	 	name: ReportingLabs-Test-Results
-    		path: target/reportinglabs/ # Change this to your exact ReportingLabs output folder
+    		path: target/reporting-labs/ # Change this to your exact ReportingLabs output folder
  	
 
 #   - name: Save Extent Reports
