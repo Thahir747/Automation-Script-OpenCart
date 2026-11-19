@@ -5,13 +5,13 @@
     <parameter name="os" value="linux"/>
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testCases.TC001_AccountRegistrationTest">
+      <class name="testCases.TC007_SearchProductTest">
         <methods>
           <include name="tearDown"/>
-          <include name="loginTest"/>
           <include name="setup"/>
+          <include name="verify_product_search"/>
         </methods>
-      </class> <!-- testCases.TC001_AccountRegistrationTest -->
+      </class> <!-- testCases.TC007_SearchProductTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [ Master Suite] -->

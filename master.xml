@@ -25,6 +25,7 @@
 <!--   <class name="testCases.TC004_E2E"/> -->
   		<class name="testCases.TC005_RegistrationDuplicateEmailValidation"/> 
   		<class name="testCases.TC006_MandatoryFieldsPasswordMismatch"/>
+  		<class name="testCases.TC007_SearchProductTest"/>
           
           
           

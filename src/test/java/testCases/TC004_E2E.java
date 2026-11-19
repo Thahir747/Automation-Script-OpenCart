@@ -39,7 +39,7 @@ public class TC004_E2E extends BaseClass {
 		
 		SearchPage sp= new SearchPage(driver);
 		
-		sp.iphoneS();
+		//sp.iphoneS();
 		
 		
 		
