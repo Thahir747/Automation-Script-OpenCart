@@ -17,11 +17,13 @@ public class SearchPage extends BasePage {
 	
 	
 	//@FindBy(xpath = "//div[contains(@class, 'product-layout')]//h4/a")
-	@FindBy(xpath = "//h4/a")
+	@FindBy(xpath = "//h4/a") List<WebElement> searchProducts;
+	@FindBy(xpath = "//div[@id='content']//p[contains(text(), 'There is no product')]") WebElement msgNoProduct;
 	
 	
 	
-    List<WebElement> searchProducts;
+	
+    
 
     // Iterate through the results to see if the target product exists
     public boolean isProductExist(String productName) {
@@ -35,6 +37,13 @@ public class SearchPage extends BasePage {
         return flag;
     }
 	
+    public boolean isNoProductMessageDisplayed() {
+        try {
+            return msgNoProduct.isDisplayed();
+        } catch (Exception e) {
+            return false;
+        }
+    }
 	
 
 }

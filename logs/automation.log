@@ -1,42 +1,36 @@
-20:17:15.745 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+22:01:12.588 [main] INFO  testCases.TC008_InvalidSearchTest.verify_invalid_product_search(TC008_InvalidSearchTest.java:18)oggger - Searching for non-existent product: FitBitXYZ123
+22:01:13.291 [main] INFO  testCases.TC008_InvalidSearchTest.verify_invalid_product_search(TC008_InvalidSearchTest.java:24)oggger - Validating 'no product found' message is displayed
+22:01:13.383 [main] INFO  testCases.TC008_InvalidSearchTest.verify_invalid_product_search(TC008_InvalidSearchTest.java:34)oggger - **** Finished TC008_InvalidSearchTest ****
+22:01:53.091 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
   C:\WORKPLACE\Automation Projects\Automation-Script-OpenCart\master.xml
 
-20:17:57.660 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+22:01:59.434 [main] INFO  testCases.TC007_SearchProductTest.verify_product_search(TC007_SearchProductTest.java:13)oggger - **** Starting TC007_SearchProductTest ****
+22:01:59.466 [main] INFO  testCases.TC007_SearchProductTest.verify_product_search(TC007_SearchProductTest.java:18)oggger - Searching for product: MacBook
+22:02:00.373 [main] INFO  testCases.TC007_SearchProductTest.verify_product_search(TC007_SearchProductTest.java:24)oggger - Validating product exists in search results
+22:03:26.925 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
   C:\WORKPLACE\Automation Projects\Automation-Script-OpenCart\master.xml
 
-20:24:09.979 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+22:03:32.776 [main] INFO  testCases.TC007_SearchProductTest.verify_product_search(TC007_SearchProductTest.java:13)oggger - **** Starting TC007_SearchProductTest ****
+22:03:32.806 [main] INFO  testCases.TC007_SearchProductTest.verify_product_search(TC007_SearchProductTest.java:18)oggger - Searching for product: MacBook
+22:03:33.458 [main] INFO  testCases.TC007_SearchProductTest.verify_product_search(TC007_SearchProductTest.java:24)oggger - Validating product exists in search results
+22:03:37.117 [main] INFO  testCases.TC008_InvalidSearchTest.verify_invalid_product_search(TC008_InvalidSearchTest.java:13)oggger - **** Starting TC008_InvalidSearchTest ****
+22:03:37.118 [main] INFO  testCases.TC008_InvalidSearchTest.verify_invalid_product_search(TC008_InvalidSearchTest.java:18)oggger - Searching for non-existent product: FitBitXYZ123
+22:03:37.723 [main] INFO  testCases.TC008_InvalidSearchTest.verify_invalid_product_search(TC008_InvalidSearchTest.java:24)oggger - Validating 'no product found' message is displayed
+22:03:37.807 [main] INFO  testCases.TC008_InvalidSearchTest.verify_invalid_product_search(TC008_InvalidSearchTest.java:34)oggger - **** Finished TC008_InvalidSearchTest ****
+22:05:34.496 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
   C:\WORKPLACE\Automation Projects\Automation-Script-OpenCart\master.xml
 
-20:24:15.908 [main] INFO  testCases.TC001_AccountRegistrationTest.loginTest(TC001_AccountRegistrationTest.java:17)oggger - *****Starting test ******
-20:24:16.954 [main] INFO  testCases.TC001_AccountRegistrationTest.loginTest(TC001_AccountRegistrationTest.java:23)oggger - clicked on my account
-20:24:16.957 [main] INFO  testCases.TC001_AccountRegistrationTest.loginTest(TC001_AccountRegistrationTest.java:27)oggger - Providing cutomer details
-20:24:19.686 [main] INFO  testCases.TC001_AccountRegistrationTest.loginTest(TC001_AccountRegistrationTest.java:41)oggger - validating
-20:24:19.735 [main] INFO  testCases.TC001_AccountRegistrationTest.loginTest(TC001_AccountRegistrationTest.java:56)oggger - *****Finished test ******
-20:29:38.450 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+22:06:08.006 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
   C:\WORKPLACE\Automation Projects\Automation-Script-OpenCart\master.xml
 
-20:29:43.804 [main] INFO  testCases.TC001_AccountRegistrationTest.loginTest(TC001_AccountRegistrationTest.java:17)oggger - *****Starting test ******
-20:29:44.755 [main] INFO  testCases.TC001_AccountRegistrationTest.loginTest(TC001_AccountRegistrationTest.java:23)oggger - clicked on my account
-20:29:44.758 [main] INFO  testCases.TC001_AccountRegistrationTest.loginTest(TC001_AccountRegistrationTest.java:27)oggger - Providing cutomer details
-20:29:47.467 [main] INFO  testCases.TC001_AccountRegistrationTest.loginTest(TC001_AccountRegistrationTest.java:41)oggger - validating
-20:29:47.511 [main] INFO  testCases.TC001_AccountRegistrationTest.loginTest(TC001_AccountRegistrationTest.java:56)oggger - *****Finished test ******
-22:37:45.082 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+22:06:50.039 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
   C:\WORKPLACE\Automation Projects\Automation-Script-OpenCart\master.xml
 
-22:37:56.714 [main] INFO  testCases.TC007_SearchProductTest.verify_product_search(TC007_SearchProductTest.java:13)oggger - **** Starting TC007_SearchProductTest ****
-22:37:56.775 [main] INFO  testCases.TC007_SearchProductTest.verify_product_search(TC007_SearchProductTest.java:18)oggger - Searching for product: MacBook
-22:37:57.738 [main] INFO  testCases.TC007_SearchProductTest.verify_product_search(TC007_SearchProductTest.java:24)oggger - Validating product exists in search results
-22:37:57.815 [main] INFO  testCases.TC007_SearchProductTest.verify_product_search(TC007_SearchProductTest.java:34)oggger - **** Finished TC007_SearchProductTest ****
-22:39:59.512 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
-  C:\WORKPLACE\Automation Projects\Automation-Script-OpenCart\master.xml
-
-22:40:08.554 [main] INFO  testCases.TC007_SearchProductTest.verify_product_search(TC007_SearchProductTest.java:13)oggger - **** Starting TC007_SearchProductTest ****
-22:40:08.613 [main] INFO  testCases.TC007_SearchProductTest.verify_product_search(TC007_SearchProductTest.java:18)oggger - Searching for product: MacBook
-22:40:09.952 [main] INFO  testCases.TC007_SearchProductTest.verify_product_search(TC007_SearchProductTest.java:24)oggger - Validating product exists in search results
-22:40:10.023 [main] INFO  testCases.TC007_SearchProductTest.verify_product_search(TC007_SearchProductTest.java:34)oggger - **** Finished TC007_SearchProductTest ****
-22:40:43.618 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
-  C:\WORKPLACE\Automation Projects\Automation-Script-OpenCart\master.xml
-
-22:40:51.189 [main] INFO  testCases.TC007_SearchProductTest.verify_product_search(TC007_SearchProductTest.java:13)oggger - **** Starting TC007_SearchProductTest ****
-22:40:51.273 [main] INFO  testCases.TC007_SearchProductTest.verify_product_search(TC007_SearchProductTest.java:18)oggger - Searching for product: MacBook
-22:40:52.534 [main] INFO  testCases.TC007_SearchProductTest.verify_product_search(TC007_SearchProductTest.java:24)oggger - Validating product exists in search results
+22:06:54.966 [main] INFO  testCases.TC007_SearchProductTest.verify_product_search(TC007_SearchProductTest.java:13)oggger - **** Starting TC007_SearchProductTest ****
+22:06:54.999 [main] INFO  testCases.TC007_SearchProductTest.verify_product_search(TC007_SearchProductTest.java:18)oggger - Searching for product: MacBook
+22:06:55.778 [main] INFO  testCases.TC007_SearchProductTest.verify_product_search(TC007_SearchProductTest.java:24)oggger - Validating product exists in search results
+22:06:55.852 [main] INFO  testCases.TC007_SearchProductTest.verify_product_search(TC007_SearchProductTest.java:34)oggger - **** Finished TC007_SearchProductTest ****
+22:06:59.009 [main] INFO  testCases.TC008_InvalidSearchTest.verify_invalid_product_search(TC008_InvalidSearchTest.java:13)oggger - **** Starting TC008_InvalidSearchTest ****
+22:06:59.009 [main] INFO  testCases.TC008_InvalidSearchTest.verify_invalid_product_search(TC008_InvalidSearchTest.java:18)oggger - Searching for non-existent product: FitBitXYZ123
+22:06:59.846 [main] INFO  testCases.TC008_InvalidSearchTest.verify_invalid_product_search(TC008_InvalidSearchTest.java:24)oggger - Validating 'no product found' message is displayed
+22:06:59.944 [main] INFO  testCases.TC008_InvalidSearchTest.verify_invalid_product_search(TC008_InvalidSearchTest.java:34)oggger - **** Finished TC008_InvalidSearchTest ****
