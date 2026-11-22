@@ -28,6 +28,9 @@ jobs:
 
       - name: Run Maven Tests
         run: mvn clean test -Dexecution_env=remote
+		
+	  - name: Run Maven Tests
+		run: mvn clean test -Dexecution_env=remote -DappURL=https://tutorialsninja.com/demo/
 
       - name: Save ReportingLabs Report
         if: always() # Ensures the report uploads even if tests fail

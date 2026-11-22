@@ -137,7 +137,10 @@ public Properties p;
 		
 		//driver.get("https://tutorialsninja.com/demo");
 		
-		driver.get(p.getProperty("appURL"));  // reading url from property files
+		//driver.get(p.getProperty("appURL"));  // reading url from property files
+		
+		String appUrl = System.getProperty("appURL", p.getProperty("appURL"));
+		driver.get(appUrl);
 		//Thread.sleep(15000);
 		driver.manage().window().maximize();
 		

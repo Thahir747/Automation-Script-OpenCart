@@ -1,36 +1,14 @@
-22:01:12.588 [main] INFO  testCases.TC008_InvalidSearchTest.verify_invalid_product_search(TC008_InvalidSearchTest.java:18)oggger - Searching for non-existent product: FitBitXYZ123
-22:01:13.291 [main] INFO  testCases.TC008_InvalidSearchTest.verify_invalid_product_search(TC008_InvalidSearchTest.java:24)oggger - Validating 'no product found' message is displayed
-22:01:13.383 [main] INFO  testCases.TC008_InvalidSearchTest.verify_invalid_product_search(TC008_InvalidSearchTest.java:34)oggger - **** Finished TC008_InvalidSearchTest ****
-22:01:53.091 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+23:30:10.473 [main] INFO  testCases.TC009_RegistrationDBTest.loginTest(TC009_RegistrationDBTest.java:42)oggger - validating UI confirmation message
+23:30:10.528 [main] INFO  testCases.TC009_RegistrationDBTest.loginTest(TC009_RegistrationDBTest.java:45)oggger - UI Registration successful. Verifying in MySQL database...
+23:30:11.072 [main] INFO  testCases.TC009_RegistrationDBTest.loginTest(TC009_RegistrationDBTest.java:55)oggger - Database verification passed for email: vEJeJ@gmail.com
+23:30:11.073 [main] INFO  testCases.TC009_RegistrationDBTest.loginTest(TC009_RegistrationDBTest.java:67)oggger - *****Finished test ******
+23:31:56.784 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
   C:\WORKPLACE\Automation Projects\Automation-Script-OpenCart\master.xml
 
-22:01:59.434 [main] INFO  testCases.TC007_SearchProductTest.verify_product_search(TC007_SearchProductTest.java:13)oggger - **** Starting TC007_SearchProductTest ****
-22:01:59.466 [main] INFO  testCases.TC007_SearchProductTest.verify_product_search(TC007_SearchProductTest.java:18)oggger - Searching for product: MacBook
-22:02:00.373 [main] INFO  testCases.TC007_SearchProductTest.verify_product_search(TC007_SearchProductTest.java:24)oggger - Validating product exists in search results
-22:03:26.925 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
-  C:\WORKPLACE\Automation Projects\Automation-Script-OpenCart\master.xml
-
-22:03:32.776 [main] INFO  testCases.TC007_SearchProductTest.verify_product_search(TC007_SearchProductTest.java:13)oggger - **** Starting TC007_SearchProductTest ****
-22:03:32.806 [main] INFO  testCases.TC007_SearchProductTest.verify_product_search(TC007_SearchProductTest.java:18)oggger - Searching for product: MacBook
-22:03:33.458 [main] INFO  testCases.TC007_SearchProductTest.verify_product_search(TC007_SearchProductTest.java:24)oggger - Validating product exists in search results
-22:03:37.117 [main] INFO  testCases.TC008_InvalidSearchTest.verify_invalid_product_search(TC008_InvalidSearchTest.java:13)oggger - **** Starting TC008_InvalidSearchTest ****
-22:03:37.118 [main] INFO  testCases.TC008_InvalidSearchTest.verify_invalid_product_search(TC008_InvalidSearchTest.java:18)oggger - Searching for non-existent product: FitBitXYZ123
-22:03:37.723 [main] INFO  testCases.TC008_InvalidSearchTest.verify_invalid_product_search(TC008_InvalidSearchTest.java:24)oggger - Validating 'no product found' message is displayed
-22:03:37.807 [main] INFO  testCases.TC008_InvalidSearchTest.verify_invalid_product_search(TC008_InvalidSearchTest.java:34)oggger - **** Finished TC008_InvalidSearchTest ****
-22:05:34.496 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
-  C:\WORKPLACE\Automation Projects\Automation-Script-OpenCart\master.xml
-
-22:06:08.006 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
-  C:\WORKPLACE\Automation Projects\Automation-Script-OpenCart\master.xml
-
-22:06:50.039 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
-  C:\WORKPLACE\Automation Projects\Automation-Script-OpenCart\master.xml
-
-22:06:54.966 [main] INFO  testCases.TC007_SearchProductTest.verify_product_search(TC007_SearchProductTest.java:13)oggger - **** Starting TC007_SearchProductTest ****
-22:06:54.999 [main] INFO  testCases.TC007_SearchProductTest.verify_product_search(TC007_SearchProductTest.java:18)oggger - Searching for product: MacBook
-22:06:55.778 [main] INFO  testCases.TC007_SearchProductTest.verify_product_search(TC007_SearchProductTest.java:24)oggger - Validating product exists in search results
-22:06:55.852 [main] INFO  testCases.TC007_SearchProductTest.verify_product_search(TC007_SearchProductTest.java:34)oggger - **** Finished TC007_SearchProductTest ****
-22:06:59.009 [main] INFO  testCases.TC008_InvalidSearchTest.verify_invalid_product_search(TC008_InvalidSearchTest.java:13)oggger - **** Starting TC008_InvalidSearchTest ****
-22:06:59.009 [main] INFO  testCases.TC008_InvalidSearchTest.verify_invalid_product_search(TC008_InvalidSearchTest.java:18)oggger - Searching for non-existent product: FitBitXYZ123
-22:06:59.846 [main] INFO  testCases.TC008_InvalidSearchTest.verify_invalid_product_search(TC008_InvalidSearchTest.java:24)oggger - Validating 'no product found' message is displayed
-22:06:59.944 [main] INFO  testCases.TC008_InvalidSearchTest.verify_invalid_product_search(TC008_InvalidSearchTest.java:34)oggger - **** Finished TC008_InvalidSearchTest ****
+23:32:03.713 [main] INFO  testCases.TC009_RegistrationDBTest.loginTest(TC009_RegistrationDBTest.java:16)oggger - *****Starting test ******
+23:32:04.735 [main] INFO  testCases.TC009_RegistrationDBTest.loginTest(TC009_RegistrationDBTest.java:22)oggger - clicked on my account
+23:32:04.741 [main] INFO  testCases.TC009_RegistrationDBTest.loginTest(TC009_RegistrationDBTest.java:26)oggger - Providing customer details
+23:32:08.152 [main] INFO  testCases.TC009_RegistrationDBTest.loginTest(TC009_RegistrationDBTest.java:42)oggger - validating UI confirmation message
+23:32:08.216 [main] INFO  testCases.TC009_RegistrationDBTest.loginTest(TC009_RegistrationDBTest.java:45)oggger - UI Registration successful. Verifying in MySQL database...
+23:32:08.712 [main] INFO  testCases.TC009_RegistrationDBTest.loginTest(TC009_RegistrationDBTest.java:55)oggger - Database verification passed for email: jefwE@gmail.com
+23:32:08.713 [main] INFO  testCases.TC009_RegistrationDBTest.loginTest(TC009_RegistrationDBTest.java:67)oggger - *****Finished test ******

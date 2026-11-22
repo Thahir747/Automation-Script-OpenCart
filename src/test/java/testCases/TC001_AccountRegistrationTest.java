@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 import pageObjects.AccountregistrationPage;
 import pageObjects.HomePage;
 import testBase.BaseClass;
-
+import utilities.DatabaseUtility;
 public class TC001_AccountRegistrationTest extends BaseClass {
 	
 	
@@ -49,6 +49,9 @@ public class TC001_AccountRegistrationTest extends BaseClass {
 		}
 		
 	}
+		
+		
+		
 		catch(Exception e) {
 			Assert.fail();
 		}
