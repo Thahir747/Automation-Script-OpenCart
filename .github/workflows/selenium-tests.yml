@@ -24,13 +24,10 @@ jobs:
       - name: Start Selenium Grid (Docker)
         run: |
           docker run -d -p 4444:4444 -p 7900:7900 --shm-size="2g" selenium/standalone-chrome:latest
-          sleep 10 
+          sleep 10
 
       - name: Run Maven Tests
-        run: mvn clean test -Dexecution_env=remote
-		
-	  - name: Run Maven Tests
-		run: mvn clean test -Dexecution_env=remote -DappURL=https://tutorialsninja.com/demo/
+        run: mvn clean test -Dexecution_env=remote -DsuiteXmlFile=ci.xml -DappURL=https://tutorialsninja.com/demo/
 
       - name: Save ReportingLabs Report
         if: always() # Ensures the report uploads even if tests fail
@@ -40,7 +37,7 @@ jobs:
           path: target/reporting-labs/ # Ensure this matches your actual output folder
 
       # - name: Save Extent Reports
-      #   if: always() 
+      #   if: always()
       #   uses: actions/upload-artifact@v4
       #   with:
       #     name: Automation-Extent-Reports
