@@ -35,16 +35,14 @@
   
 
   
-  
-   
+ 
    <dependencies>
    
 <!-- Source: https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
 <dependency>
     <groupId>org.seleniumhq.selenium</groupId>
     <artifactId>selenium-java</artifactId>
-    <version>4.52.0</version>
-    <scope>compile</scope>
+    <version>4.53.0</version>
 </dependency>
 
 
@@ -52,8 +50,7 @@
 <dependency>
     <groupId>org.apache.poi</groupId>
     <artifactId>poi</artifactId>
-    <version>5.5.1</version>
-    <scope>compile</scope>
+    <version>6.0.0</version>
 </dependency>
 
 
@@ -61,8 +58,7 @@
 <dependency>
     <groupId>org.apache.poi</groupId>
     <artifactId>poi-ooxml</artifactId>
-    <version>5.5.1</version>
-    <scope>compile</scope>
+    <version>6.0.0</version>
 </dependency>
 
 
@@ -105,8 +101,7 @@
 <dependency>
     <groupId>org.apache.commons</groupId>
     <artifactId>commons-lang3</artifactId>
-    <version>3.21.0</version>
-    <scope>compile</scope>
+    <version>3.22.0</version>
 </dependency>
 
 
